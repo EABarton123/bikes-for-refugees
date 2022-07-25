@@ -229,7 +229,8 @@ p {
 
 .sidebar {
   display: flex;
-  flex-direction: column;
+  direction: rtl
+  overflow: auto;
   min-width: 350px;
 }
 
