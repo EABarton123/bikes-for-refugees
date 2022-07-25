@@ -111,6 +111,7 @@ p {
 .content {
   display: flex;
   flex-direction: row;
+  direction: ltr;
 }
 
 /* Alert */
