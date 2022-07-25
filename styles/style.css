@@ -96,13 +96,21 @@ p {
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
+.button {
+  background-color: #c05326;
+  color: white;
+}
 
+.vol{
+  background-color: white;
+  color: #c05326;
+}
 
 /* Content */
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Alert */
@@ -117,6 +125,12 @@ p {
   margin-bottom: 2rem;
 }
 
+.options{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: 20px;
+}
 /* hero */
 
 .hero {
