@@ -165,7 +165,7 @@ p {
 .heading-underline:before {
   content: "";
   position: absolute;
-  bottom: -2px;
+   bottom: -2px;
   left: 0;
   width: 25%;
   height: 2px;
